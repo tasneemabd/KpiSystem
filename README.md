@@ -105,6 +105,16 @@ npm run client
 ### Admin Account
 - **Email**: admin@buniversemr.com
 - **Password**: admin123
+## Screenshots
+
+### Dashboard
+![Dashboard](https://github.com/tasneemabd/KpiSystem/blob/main/client/kpi-evaluation3.png))
+
+### User Management
+![User Management](./path-to-your-image/user-management.png)
+
+### KPI Evaluation
+![KPI Evaluation](./path-to-your-image/kpi-evaluation.png)
 
 
 
@@ -131,4 +141,5 @@ npm run client
 - `PUT /api/kpi/:id` - Update evaluation (Admin)
 - `DELETE /api/kpi/:id` - Delete evaluation (Admin)
 - `PATCH /api/kpi/:id/status` - Update evaluation status (Admin)
+
 
