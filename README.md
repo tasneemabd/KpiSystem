@@ -107,35 +107,38 @@ npm run client
 - **Password**: admin123
 ## Screenshots
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-
 <!-- Dashboard Screenshots -->
-<div style="flex: 1 1 30%;">
-  <strong>Dashboard</strong><br>
-  <img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/dashboard1.png" width="100%">
-  <img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/dashboard2.png" width="100%">
-  <img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/dashboard3.png" width="100%">
-  <img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/dashboard4.png" width="100%">
-  <img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/dashboard5.png" width="100%">
-</div>
+### Dashboard
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/dashboard1.png" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/dashboard2.png" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/dashboard3.png" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/dashboard4.png" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/dashboard5.png" width="200"></td>
+    <td></td>
+  </tr>
+</table>
 
-<!-- User Management Screenshots -->
-<div style="flex: 1 1 30%;">
-  <strong>User Management</strong><br>
-  <img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/user-management1.png" width="100%">
-  <img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/user-management2.png" width="100%">
-  <img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/user-management3.png" width="100%">
-</div>
+### User Management
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/user-management1.png" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/user-management2.png" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/user-management3.png" width="200"></td>
+  </tr>
+</table>
 
-<!-- KPI Evaluation Screenshots -->
-<div style="flex: 1 1 30%;">
-  <strong>KPI Evaluation</strong><br>
-  <img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/kpi-evaluation1.png" width="100%">
-  <img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/kpi-evaluation2.png" width="100%">
-  <img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/kpi-evaluation3.png" width="100%">
-</div>
-
-</div>
+### KPI Evaluation
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/kpi-evaluation1.png" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/kpi-evaluation2.png" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/kpi-evaluation3.png" width="200"></td>
+  </tr>
+</table>
 
 
 ## API Endpoints
@@ -161,6 +164,7 @@ npm run client
 - `PUT /api/kpi/:id` - Update evaluation (Admin)
 - `DELETE /api/kpi/:id` - Delete evaluation (Admin)
 - `PATCH /api/kpi/:id/status` - Update evaluation status (Admin)
+
 
 
 
