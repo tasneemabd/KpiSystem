@@ -107,15 +107,35 @@ npm run client
 - **Password**: admin123
 ## Screenshots
 
-### Dashboard
-![Dashboard](https://github.com/tasneemabd/KpiSystem/blob/main/client/kpi-evaluation3.png))
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
-### User Management
-![User Management](./path-to-your-image/user-management.png)
+<!-- Dashboard Screenshots -->
+<div style="flex: 1 1 30%;">
+  <strong>Dashboard</strong><br>
+  <img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/dashboard1.png" width="100%">
+  <img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/dashboard2.png" width="100%">
+  <img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/dashboard3.png" width="100%">
+  <img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/dashboard4.png" width="100%">
+  <img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/dashboard5.png" width="100%">
+</div>
 
-### KPI Evaluation
-![KPI Evaluation](./path-to-your-image/kpi-evaluation.png)
+<!-- User Management Screenshots -->
+<div style="flex: 1 1 30%;">
+  <strong>User Management</strong><br>
+  <img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/user-management1.png" width="100%">
+  <img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/user-management2.png" width="100%">
+  <img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/user-management3.png" width="100%">
+</div>
 
+<!-- KPI Evaluation Screenshots -->
+<div style="flex: 1 1 30%;">
+  <strong>KPI Evaluation</strong><br>
+  <img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/kpi-evaluation1.png" width="100%">
+  <img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/kpi-evaluation2.png" width="100%">
+  <img src="https://raw.githubusercontent.com/tasneemabd/KpiSystem/main/client/kpi-evaluation3.png" width="100%">
+</div>
+
+</div>
 
 
 ## API Endpoints
@@ -141,5 +161,6 @@ npm run client
 - `PUT /api/kpi/:id` - Update evaluation (Admin)
 - `DELETE /api/kpi/:id` - Delete evaluation (Admin)
 - `PATCH /api/kpi/:id/status` - Update evaluation status (Admin)
+
 
 
